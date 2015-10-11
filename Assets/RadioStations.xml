@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<root>
+  <Station name="Dolfijnfm">
+    <URL>http://217.172.190.185:8226/</URL>
+  </Station>
+  <Station name="BigFM">
+    <URL>http://srv01.bigstreams.de/stream01-64</URL>
+  </Station>
+</root>
