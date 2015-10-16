@@ -71,7 +71,7 @@ namespace WebRadio
                 MessageBox.Show("42", "Muted", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
         }
-
+        
         private void buttonStop_Click(object sender, EventArgs e)
         {
             player.controls.stop();
@@ -95,7 +95,10 @@ namespace WebRadio
             }
         }
 
-        //Passt das Label an die aktuelle Lautstärke an
+        /// <summary>
+        /// Updatet die Anzeige der aktuellen Lautstärke
+        /// </summary>
+        /// <param name="sound">Aktuelle Lautstärke 0 bis 100</param>
         public void soundUpdate(int sound)
         {
             labelVolume.Text = ("Volume(" + sound + ")");
